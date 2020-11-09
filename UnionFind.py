@@ -27,7 +27,8 @@ class UnionFind:
         return True
 
     def same(self, x, y):
-        return self.find(x) == self.find(y)
+        # return self.find(x) == self.find(y)
+        return self.find(x) != self.find(y)
 
 
 def main():
