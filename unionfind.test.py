@@ -1,7 +1,7 @@
 # verification-helper: PROBLEM https://judge.yosupo.jp/problem/unionfind
 import sys
 
-from UnionFind import UnionFind
+from unionfind import UnionFind
 
 input = sys.stdin.buffer.readline
 
