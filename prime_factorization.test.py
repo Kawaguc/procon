@@ -1,4 +1,4 @@
-# verification-helper: http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=NTL_1_A
+# verification-helper: PROBLEM http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=NTL_1_A
 
 from prime_factorization import prime_factorization
 
