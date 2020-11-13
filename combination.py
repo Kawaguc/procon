@@ -12,10 +12,8 @@ class Combination:
         self.fac = [0] * (n_max + 1)
         self.facinv = [0] * (n_max + 1)
         self.inv = [0] * (n_max + 1)
-        self.fac[0] = 1
-        self.fac[1] = 1
-        self.facinv[0] = 1
-        self.facinv[1] = 1
+        self.fac[0] = self.fac[1] = 1
+        self.facinv[0] = self.facinv[1] = 1
         self.inv[1] = 1
         for i in range(2, n_max + 1):
             self.fac[i] = self.fac[i - 1] * i % self.mod
