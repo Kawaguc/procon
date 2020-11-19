@@ -1,3 +1,6 @@
+import sys
+
+# sys.path.append("../")
 from combination import Combination
 
 c = Combination()
