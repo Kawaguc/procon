@@ -1,5 +1,5 @@
 # verification-helper: PROBLEM http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=GRL_1_A
-from dijkstra import dijkstra
+from procon.dijkstra import dijkstra
 
 
 def main():

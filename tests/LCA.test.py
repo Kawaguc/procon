@@ -1,7 +1,7 @@
 # verification-helper: PROBLEM https://onlinejudge.u-aizu.ac.jp/courses/library/5/GRL/all/GRL_5_C
 import sys
 
-from LCA import LCA
+from procon.LCA import LCA
 
 sys.setrecursionlimit(10 ** 6)
 

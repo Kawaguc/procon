@@ -1,5 +1,5 @@
 # verification-helper: PROBLEM https://onlinejudge.u-aizu.ac.jp/courses/library/5/GRL/1/GRL_1_C
-from warshall_floyd import warshall_floyd
+from procon.warshall_floyd import warshall_floyd
 
 
 def main():

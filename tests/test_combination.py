@@ -1,7 +1,4 @@
-import sys
-
-# sys.path.append("../")
-from combination import Combination
+from procon.combination import Combination
 
 c = Combination()
 

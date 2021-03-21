@@ -1,5 +1,5 @@
 # verification-helper: PROBLEM http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DSL_2_A
-from segtree import SegmentTree
+from procon.segtree import SegmentTree
 
 
 def main():

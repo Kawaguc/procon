@@ -1,5 +1,5 @@
 # verification-helper: PROBLEM https://judge.yosupo.jp/problem/shortest_path
-from dijkstra_path import dijkstra_path, get_path
+from procon.dijkstra_path import dijkstra_path, get_path
 
 
 def main():

@@ -1,4 +1,5 @@
-from is_prime import is_prime
+# from is_prime import is_prime
+from procon.is_prime import is_prime
 
 
 def test_is_prime0():
