@@ -17,7 +17,8 @@ class Combination:
         self.inv[1] = 1
         for i in range(2, n_max + 1):
             self.fac[i] = self.fac[i - 1] * i % self.mod
-            self.inv[i] = self.mod - self.mod // i * self.inv[self.mod % i] % self.mod
+            self.inv[i] = self.mod - self.mod // i * \
+                self.inv[self.mod % i] % self.mod
             self.facinv[i] = self.facinv[i - 1] * self.inv[i] % self.mod
 
     def __call__(self, n, r):

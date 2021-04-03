@@ -16,7 +16,8 @@ class SegmentTree:
             self.tree[i + self.offset] = arr[i]
         # 構築
         for i in range(self.offset - 1, 0, -1):
-            self.tree[i] = self.operator(self.tree[2 * i], self.tree[2 * i + 1])
+            self.tree[i] = self.operator(
+                self.tree[2 * i], self.tree[2 * i + 1])
 
     def update(self, k, x):
         """
