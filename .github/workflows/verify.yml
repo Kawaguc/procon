@@ -21,4 +21,4 @@ jobs:
       run: |
         oj-verify run
         python3 -m pytest
-        # pytest
+        pytest ./procon --doctest-modules

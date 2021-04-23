@@ -1,7 +1,16 @@
 def prime_factorization(n):
     """
     素因数分解 O(√N)
+    >>> prime_factorization(12)
+    [2, 2, 3]
+    >>> prime_factorization(120)
+    [2, 2, 2, 3, 5]
+    >>> prime_factorization(1)
+    []
+    >>> prime_factorization(2)
+    [2]
     """
+
     i = 2
     ret = []
     while i * i <= n:
@@ -15,10 +24,7 @@ def prime_factorization(n):
 
 
 def main():
-    assert prime_factorization(12) == [2, 2, 3]
-    assert prime_factorization(126) == [2, 3, 3, 7]
-    assert prime_factorization(1) == []
-    assert prime_factorization(2) == [2]
+    pass
 
 
 if __name__ == "__main__":

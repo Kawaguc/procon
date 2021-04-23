@@ -1,4 +1,11 @@
 def sieve_eratosthenes(n):
+    """
+    >>> table = sieve_eratosthenes(6)
+    >>> table
+    [False, False, True, True, False, True, False]
+    >>> table[2]
+    True
+    """
     is_prime = [True] * (n + 1)
     is_prime[0] = is_prime[1] = False
     for i in range(2, n + 1):
@@ -7,9 +14,7 @@ def sieve_eratosthenes(n):
     return is_prime
 
 
-def test_sieve_erathosthenes():
-    assert sieve_eratosthenes(6) == [False, False, True, True, False, True, False]
-
-
 if __name__ == "__main__":
-    test_sieve_erathosthenes()
+    import doctest
+
+    doctest.testmod()
