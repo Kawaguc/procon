@@ -62,6 +62,6 @@ def main2():
             print(ft.sum(c, d))
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
     # main2()

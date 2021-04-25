@@ -17,7 +17,7 @@ def dist_from_point_to_line(x, y, x1, y1, x2, y2):
     a = y2 - y1
     b = -(x2 - x1)
     c = -x1 * (y2 - y1) + y1 * (x2 - x1)
-    den = math.sqrt(a**2 + b**2)
+    den = math.sqrt(a ** 2 + b ** 2)
     num = abs(a * x + b * y + c)
     dist = num / den
     return dist

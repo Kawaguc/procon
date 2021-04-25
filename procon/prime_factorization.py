@@ -21,11 +21,3 @@ def prime_factorization(n):
     if n > 1:
         ret.append(n)
     return ret
-
-
-def main():
-    pass
-
-
-if __name__ == "__main__":
-    main()
