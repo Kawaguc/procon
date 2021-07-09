@@ -59,9 +59,3 @@ def sieve_eratosthenes(n):
         for j in range(2 * i, n + 1, i):
             is_prime[j] = False
     return is_prime
-
-
-if __name__ == "__main__":
-    import doctest
-
-    doctest.testmod()

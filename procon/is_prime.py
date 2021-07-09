@@ -19,14 +19,3 @@ def is_prime(n):
         else:
             i += 1
     return True
-
-
-def main():
-
-    import doctest
-
-    doctest.testmod()
-
-
-if __name__ == "__main__":
-    main()

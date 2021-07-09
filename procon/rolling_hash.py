@@ -15,18 +15,3 @@ class RollingHash:
         returns hash of s[l:r) by O(1)
         """
         return (self.hashs[r] - self.hashs[l] * self.pows[r - l]) % self.mod
-
-
-def main():
-    # https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_14_B
-    t = input()
-    p = input()
-    rh = RollingHash(t)
-    hashp = RollingHash(p).get(0, len(p))
-    for i in range(len(t) - len(p) + 1):
-        if rh.get(i, i + len(p)) == hashp:
-            print(i)
-
-
-if __name__ == "__main__":
-    main()

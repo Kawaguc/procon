@@ -1,7 +1,6 @@
-import math
-
-
 def dist_from_point_to_line(x, y, x1, y1, x2, y2):
+    import math
+
     """dist_from_point_to_line.
     ある点と他の二点を通る直線との距離を求める
 
